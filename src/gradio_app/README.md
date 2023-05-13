@@ -47,7 +47,7 @@ run the command:
 
             gradio pp.py
 
-Open your browser and go to http://localhost:7860/
+Open your browser and go to http://127.0.0.1:8080
 
 
 ## Author
