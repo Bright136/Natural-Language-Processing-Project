@@ -41,11 +41,11 @@
   </tr>
   <tr>
     <td>Distilbert</td>
-    <td><a href="">Fine-tuned Distilbert</a></td>
+    <td><a href="https://huggingface.co/bright1/fine-tuned-distilbert-base-uncased">Fine-tuned Distilbert</a></td>
   </tr>
   <tr>
     <td>Roberta</td>
-    <td><a href="">Fine-tuned Roberta</a></td>
+    <td><a href="https://huggingface.co/bright1/fine-tuned-twitter-Roberta-base-sentiment">Fine-tuned Roberta</a></td>
   </tr>
 </table>
 
@@ -56,15 +56,15 @@
   </tr>
   <tr>
     <td>Gradio App</td>
-    <td><a href="">Sentiment Analysis with Gradio</a></td>
+    <td><a href="https://huggingface.co/spaces/bright1/sentiment-analysis-app-gradio">Sentiment Analysis with Gradio</a></td>
   </tr>
   <tr>
     <td>Streanlit App</td>
-    <td><a href="">Sentiment Analysis with Streamlit</a></td>
+    <td><a href="https://huggingface.co/spaces/bright1/sentiment-analysis-app-streamlit">Sentiment Analysis with Streamlit</a></td>
   </tr>
   <tr>
     <td>Docker App</td>
-    <td><a href="">Sentiment Analysis Docker App</a></td>
+    <td><a href="https://huggingface.co/spaces/bright1/MyFirstDockerApp">Sentiment Analysis Docker App</a></td>
   </tr>
 </table>
 
