@@ -1,4 +1,4 @@
-# Building a Sentiment Analysis App with Gradio
+#  🚀Building a Sentiment Analysis App with Gradio 😟😐😊 🚀
 This is a Gradio app that performs sentiment analysis on COVID-19 tweets using two pre-trained language models, DistilBERT and RoBERTa.
 
 ## Summary
