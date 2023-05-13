@@ -1,14 +1,14 @@
-# NLP Sentiment Analysis of COVID-19 Tweets
+# Building a Sentiment Analysis App with Gradio
 This is a Gradio app that performs sentiment analysis on COVID-19 tweets using two pre-trained language models, DistilBERT and RoBERTa.
 
 ## Summary
 | Code      | Name        | Published Article |  Deployed App |
 |-----------|-------------|:-------------:|------:|
-| LP5 | NLP Sentiment Analysis of COVID-19 Tweets |  [Deploying an App on Hugging Face](https://medium.com/@brighteshun/deploying-a-sentiement-analysis-app-on-huggingface-faeb43954905) | [Covid-19 Tweets Analyzer App](https://huggingface.co/spaces/bright1/sentiment-analysis-app-gradio) |
+| LP5 | NLP Sentiment Analysis App with Gradio |  [Deploying an App on Hugging Face](https://medium.com/@brighteshun/deploying-a-sentiement-analysis-app-on-huggingface-faeb43954905) | [Covid-19 Tweets Analyzer App](https://huggingface.co/spaces/bright1/sentiment-analysis-app-gradio) |
 
 			
 ## Project Description
-The aim of this project is to analyze the sentiment of tweets related to COVID-19 using two pre-trained language models, DistilBERT and RoBERTa. The app takes in user-generated text input and predicts whether the sentiment of the tweet is Negative, Neutral, or Positive. The app also preprocesses the input text by replacing any mention of usernames with "@user" and replacing any URLs with "http".
+The aim of this project is to analyze the sentiment of tweets related to COVID-19 using two pre-trained language models, DistilBERT and RoBERTa. The app takes in user-generated text input (tweet) and predicts whether the sentiment of the tweet is Negative, Neutral, or Positive. The app also preprocesses the input text by replacing any mention of usernames with "@user" and replacing any URLs with "http".
 
 How the app works
 
