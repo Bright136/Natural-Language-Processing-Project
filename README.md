@@ -8,32 +8,39 @@
 
 
 
-## Application Description (One Line)
+## Project Description 
+A project showcasing how to use Hugging Face Transformers and Gradio for text classification with a pre-trained model
+
+
+## Table of Contents
+1. [Overview Of the Project](#overview)
+
+2. [Application / Deployed Links](#application)
+
+3. [Technology Stack](#technology)
+
+4. [Deliverables](#deliverables)
+
+5. [Installation](#installation)
+
+6. [Configuration Setup](#setup)
+
+7. [Usage](#usage)
+
+8. [Collaborators](#collaborators)
+
+9. [Contributing Instructions](#instructions)
+
+10. [Contact Information](#ontact)
+
+
+## 1. Overview Of the Project <a name="overview"></a>
 - The project is a machine learning model that can generate natural language text based on a given prompt. The model is based on the state-of-the-art GPT-3 architecture and has been fine-tuned on a large corpus of text data. The model is hosted on the Hugging Face Model Hub, which provides easy access to the model through a RESTful API.
 
 - The project also includes a Dockerfile that can be used to deploy the model locally or in a cloud environment. The Dockerfile installs the necessary dependencies and sets up the environment to run the model. Additionally, the project includes documentation and examples to help users get started with using the model.
 
 - Overall, the project aims to make it easy for developers and data scientists to use and deploy a powerful natural language generation model in their applications.
-
-## Table of Contents
-1. [Application / Deployed Links](#application)
-
-2. [Technology Stack](#technology)
-
-3. [Deliverables](#deliverables)
-
-4. [Installation](#installation)
-
-5. [Configuration Setup](#setup)
-
-6. [Usage](#usage)
-
-7. [Collaborators](#collaborators)
-8. [Contributing Instructions](#instructions)
-9. [Contact Information](#ontact)
-
-
-## 1. Application / Deployed Links <a name="application"></a>
+## 2. Application / Deployed Links <a name="application"></a>
 <table>
   <tr>
     <th>Models</th>
@@ -68,7 +75,7 @@
   </tr>
 </table>
 
-## 2. Technology Stack <a name="technology"></a>
+## 3. Technology Stack <a name="technology"></a>
  
 <table>
   <tr>
@@ -89,14 +96,14 @@
   </tr>
 </table>
 
-## 3. Deliverables <a name="deliverables"></a>
+## 4. Deliverables <a name="deliverables"></a>
 
 1. A fintuned pre-trained distilbert-base-uncase 
 2. A fintuned pre-trained roberta-base-uncase 
 3. Interactive user interface 
 4. A Dockerfile for easy deployment 
 
-## 4. Installation <a name="installation"></a>
+## 5. Installation <a name="installation"></a>
 Clone the repository to your local machine:
 
 
@@ -124,17 +131,17 @@ Once the Gradio interface is running, you can access it by opening a web browser
 ## Configuration Setup
 Alongside installation, you may have some configuration files that are necessary to setup for each person. Add notes here about config options and what they need to change
 
-## 6. Usage <a name="usage"></a>
+## 7. Usage <a name="usage"></a>
 - The app will start running and display a Gradio interface with input fields and a submit button.
 - Enter the input text in the input field and click the submit button.
 - The app will generate the output based on the input and display it in the output field.
 - You can continue entering new inputs and getting new outputs as desired.
 - When you are finished using the app, you can close the Gradio interface or terminate the app by pressing Ctrl+C in the terminal/command prompt.
 
-## 7. Collaborators <a name="collaborators"></a>
+## 8. Collaborators <a name="collaborators"></a>
 
 
-## 8. Contributing Instructions <a name="instructions"></a>
+## 9. Contributing Instructions <a name="instructions"></a>
 To contribute to the Sentiment Analysis API, follow these guidelines:
 
 - Fork the repository.
@@ -143,7 +150,7 @@ To contribute to the Sentiment Analysis API, follow these guidelines:
 - Push to the branch: git push origin my-new-feature
 - Create a new pull request
 
-## 9. Contact Information <a name="contact"></a>
+## 10. Contact Information <a name="contact"></a>
 
 <table>
   <tr>
