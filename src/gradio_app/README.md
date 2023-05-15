@@ -40,15 +40,21 @@ Do:
 
 ## App Execution
 To execute the app, follow these steps:
-After all requirement have been install
 
-At the root of your repository in your terminal
+- At the root of your app diretory  in your terminal
 run the command: 
+
 
             gradio pp.py
 
-Open your browser and go to http://127.0.0.1:8080
+- Open your browser and go to http://127.0.0.1:8080
 
+<span>Photos of the Gradio App</span>
+
+<div align='center'> 
+    <img src="https://drive.google.com/uc?export=view&id=1Qk9j4V5NGoZlraE5VJS51L6n5m_RoFZQ"/>
+
+</div>
 
 ## Author
 Bright Eshun

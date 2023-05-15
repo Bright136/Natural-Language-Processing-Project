@@ -8,7 +8,11 @@
 [![Open Source Love png1](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
 
-## Screenshot
+## Screenshots of the App
+<div align='center'> 
+    <img src="https://drive.google.com/uc?export=view&id=1Ku4QP_1MxXwci791Hat6o7w9C7BNjC5i"/>
+
+</div>
 
 
 
@@ -29,7 +33,7 @@ A project showcasing how to use Hugging Face Transformers and Gradio for text cl
 
 6. [Configuration Setup](#setup)
 
-7. [Usage](#usage)
+7. [App Usage](#usage)
 
 8. [Collaborators](#collaborators)
 
@@ -132,10 +136,33 @@ Copy code
 python app.py
 Once the Gradio interface is running, you can access it by opening a web browser and navigating to http://localhost:7860.
 
-## Configuration Setup
-Alongside installation, you may have some configuration files that are necessary to setup for each person. Add notes here about config options and what they need to change
+## Execution
+1. Notebooks
+To run any the notebooks:
+To fine-tune the Hugging Face Text classification model, please follow the steps below:
 
-## 7. Usage <a name="usage"></a>
+- Go to the Hugging Face website and sign in to access all the features of the platform.
+- Use Colab, your other GPU cloud provider, or a local machine having NVIDIA GPU.
+- Rerun the code to train the Distilbert model or train my finetuned models
+- Make sure you have made the neccessary changes to parameter such as `output_dir`
+- The `output_dir` should be replaced with your model repository on hugging to enable you push the model.
+
+2. App
+To execute the app, follow these steps:
+After all requirement have been install
+
+At the root of your repository in your terminal
+`root :: Churn-Prediction-App-with-Gradio> ...`
+run the command:
+
+
+            gradio pp.py
+
+Open your browser and go to http://127.0.0.1:8080
+
+
+
+## 7. App Usage <a name="usage"></a>
 - The app will start running and display a Gradio interface with input fields and a submit button.
 - Enter the input text in the input field and click the submit button.
 - The app will generate the output based on the input and display it in the output field.
