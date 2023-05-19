@@ -32,12 +32,12 @@ Do:
 - Windows:
 
         python -m venv venv; venv\Scripts\activate; python -m pip install -q --upgrade pip
-	python -m pip install -qr 'https://raw.githubusercontent.com/Bright136/Natural-Language-Processing-Project/main/requirements.txt'  
+        python -m pip install -qr 'https://raw.githubusercontent.com/Bright136/Natural-Language-Processing-Project/main/requirements.txt'  
 
 - Linux & MacOs:
 
-        python3 -m venv ve  nv; source venv/bin/activate; python -m pip install -q --upgrade pip 
-	python -m pip install -qr 'https://raw.githubusercontent.com/Bright136/Natural-Language-Processing-Project/main/requirements.txt'
+        python3 -m venv ve  nv; source venv/bin/activate; python -m pip install -q --upgrade pip
+        python -m pip install -qr 'https://raw.githubusercontent.com/Bright136/Natural-Language-Processing-Project/main/requirements.txt'
 
 
 ## App Execution
