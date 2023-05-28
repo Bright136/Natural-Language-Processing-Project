@@ -128,7 +128,7 @@ Create a new virtual environment and activate the virtual:
 
 - Linux & MacOs:
 
-        python3 -m venv ve  nv; source venv/bin/activate; python -m pip install -q --upgrade pip; python -m pip install -qr requirements.txt
+        python3 -m venv venv; source venv/bin/activate; python -m pip install -q --upgrade pip; python -m pip install -qr requirements.txt
 
 
 
@@ -156,7 +156,7 @@ At the root of your repository in your terminal
 run the command:
 
 
-            gradio pp.py
+            gradio app.py
 
 Open your browser and go to http://127.0.0.1:8080
 
