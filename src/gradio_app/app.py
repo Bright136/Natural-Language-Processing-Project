@@ -63,16 +63,15 @@ def sentiment_analysis(model_type, text):
     return scores
 # , hist_df.head()
 
-
-model_type = gr.Dropdown(choices=['distilbert', 'roberta'], label='Select model type', allow_custom_value=False, value='roberta')  
+model_type = gr.Radio(choices=['distilbert', 'roberta'], label='Select model type', value='roberta' )  
 #Gradio app interface
 #Gradio app interface
 demo = gr.Interface(fn = sentiment_analysis,
                    inputs = [model_type, gr.TextArea("Write your text or tweet here", label="Analyze your COVID-19 tweets" )],
                    outputs = ["label"],
-                   title = "NLP Sentiment Analysis - Zindi Challenge",
+                   title = "COVID-19 Vaccine Tweet Analyzer App",
                    description  = "COVID-19 Tweets Analyzer",
                    interpretation = "default",
-                   examples = [[None, "Being vaccinated is actually awesome :)"]]
+                   examples = [["roberta", "Being vaccinated is actually awesome :)"]]
                    ).launch(share=True, server_port=8080)
 
