@@ -115,11 +115,11 @@ A project showcasing how to use Hugging Face Transformers and Gradio for text cl
 Clone the repository to your local machine:
 
 
-        git clone https://github.com/your-username/your-project.git
+        git clone https://github.com/Bright136/Natural-Language-Processing-Project.git
 
 Navigate to the project directory:
 
-        cd your-project
+        cd Natural-Language-Processing-Project
 Create a new virtual environment and activate the virtual:
 
 - Windows:
@@ -170,6 +170,26 @@ Open your browser and go to http://127.0.0.1:8080
 - When you are finished using the app, you can close the Gradio interface or terminate the app by pressing Ctrl+C in the terminal/command prompt.
 
 ## 8. Collaborators <a name="collaborators"></a>
+<table>
+  <tr>
+    <th>Name</th>
+  </tr>
+  <tr>
+    <td>Bright Eshun</td>
+  </tr>
+  <tr>
+    <td>Kwasi Asomani</td>
+  </tr>
+  <tr>
+    <td>Stella  Oiro</td>
+  </tr>
+  <tr>
+    <td>Linda Azdigbli</td>
+  </tr>
+    <tr>
+    <td>Foster Kwabena Abrefa</td>
+  </tr>
+</table>
 
 
 ## 9. Contributing Instructions <a name="instructions"></a>
