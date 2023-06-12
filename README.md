@@ -148,15 +148,16 @@ To fine-tune the Hugging Face Text classification model, please follow the steps
 - The `output_dir` should be replaced with your model repository on hugging to enable you push the model.
 
 2. App
+
 To execute the app, follow these steps:
 After all requirement have been install
 
 At the root of your repository in your terminal
-`root :: Churn-Prediction-App-with-Gradio> ...`
+`root :: Natural-Language-Processing-Project> ...`
 run the command:
 
 
-            gradio app.py
+            gradio src\gradio_app\app.py
 
 Open your browser and go to http://127.0.0.1:8080
 
